@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Location"
+    >
+
+    <TextView
+        android:id="@+id/txt_title2"
+        android:layout_width="wrap_content"
+
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/fondl" />
+
+    <TextView
+        android:id="@+id/txt_title"
+
+        android:layout_width="wrap_content"
+        android:layout_height="41dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/selector_bgb"
+        android:gravity="center"
+        android:fontFamily="cursive"
+        android:text="Casa Museo José Alfredo Jiménez"
+        android:textColor="@android:color/white"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="9dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+
+    <TextView
+        android:id="@+id/txt_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/txt_textLocation"
+
+        android:layout_below="@+id/txt_title2"
+        android:text="Ubicación"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="84dp" />
+
+    <TextView
+        android:id="@+id/txt_textLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/btn_location"
+        android:layout_alignLeft="@+id/txt_schedules"
+        android:layout_alignStart="@+id/txt_schedules"
+        android:text="@string/Location"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="124dp" />
+
+    <TextView
+        android:id="@+id/txt_schedules"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txt_schedulesText"
+        android:layout_alignStart="@+id/txt_schedulesText"
+        android:layout_below="@+id/txt_textLocation"
+        android:layout_marginTop="24dp"
+        android:text="Horarios"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="175dp" />
+
+    <TextView
+        android:id="@+id/txt_schedulesText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txt_schedules"
+        android:layout_marginLeft="21dp"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="29dp"
+        android:text="@string/schedules"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="218dp" />
+
+    <Button
+        android:id="@+id/btn_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/txt_location"
+        android:layout_marginEnd="18dp"
+        android:layout_marginTop="17dp"
+        android:background="@color/color_sqrt"
+        android:backgroundTint="@color/green"
+        android:onClick="nextActivity33"
+        android:text="@string/title_location"
+        android:textColor="@android:color/background_light"
+        android:textSize="10dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="259dp"
+        tools:layout_editor_absoluteY="124dp" />
+
+    <Button
+        android:id="@+id/btn_comment"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txt_schedulesText"
+        android:layout_marginTop="32dp"
+        android:background="@color/color_sqrt"
+        android:backgroundTint="@color/orangeDark"
+        android:fontFamily="cursive"
+        android:onClick="nextActivity2"
+        android:text="@string/share"
+        android:textColor="@android:color/background_light"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="94dp"
+        tools:layout_editor_absoluteY="325dp" />
+
+    <Button
+        android:id="@+id/btn_visit"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_above="@+id/txt_title3"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="12dp"
+        android:background="@color/color_sqrt"
+        android:backgroundTint="@color/orangeDark"
+        android:fontFamily="cursive"
+        android:onClick="c"
+        android:text="@string/call"
+        android:textColor="@android:color/background_light"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="393dp" />
+
+    <TextView
+        android:id="@+id/txt_title3"
+        android:layout_width="wrap_content"
+
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/fondl" />
+
+</RelativeLayout>

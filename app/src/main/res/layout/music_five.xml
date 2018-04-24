@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+    tools:context=".MusicFive">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:text="El rey"
+        android:textColor="@color/white"
+        android:textSize="@dimen/tiltle"
+        android:fontFamily="cursive"
+        android:textAlignment="center"
+
+        />
+
+
+    <fragment
+        android:id="@+id/videoView"
+        android:name="com.google.android.youtube.player.YouTubePlayerFragment"
+        android:layout_width="280dp"
+        android:layout_height="200dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="center"
+        android:layout_weight="8"/>
+
+</LinearLayout>

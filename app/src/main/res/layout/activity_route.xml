@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mx.utng.edu.conoceDolores.RouteDhActivity">
+
+    <ImageView
+        android:layout_width="129dp"
+        android:layout_height="170dp"
+        android:src="@drawable/dh1_compressor"
+        android:layout_margin="@dimen/margin_size"
+        android:id="@+id/imv_photo"
+        android:onClick="nextActivity11"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="@dimen/margin_size"
+        android:textStyle="bold"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txv_name_route"
+            android:text="@string/name_route"
+            android:layout_marginBottom="@dimen/margin_size"
+            android:textSize="@dimen/size13"
+            android:textColor="@color/green"
+            android:onClick="nextActivity11"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txv_description"
+            android:text="@string/description"
+            android:layout_marginBottom="@dimen/margin_size"
+            android:textSize="@dimen/text_size"
+            android:textColor="@color/black"
+            android:onClick="nextActivity11"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

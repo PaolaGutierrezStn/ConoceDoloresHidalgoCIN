@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "504567624018",
+    "firebase_url": "https://gaaaa-b9449.firebaseio.com",
+    "project_id": "gaaaa-b9449",
+    "storage_bucket": "gaaaa-b9449.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:504567624018:android:e69d4d751b408851",
+        "android_client_info": {
+          "package_name": "mx.utng.edu.conoceDolores"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "504567624018-kt285bo7164juk8skhmoh2q6kqaa9np8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYXnbu3y_fA4TGzHpPYbHU1YuFJs07xpc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

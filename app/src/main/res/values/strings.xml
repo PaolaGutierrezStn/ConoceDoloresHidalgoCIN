@@ -1,0 +1,96 @@
+<resources>
+    <string name="app_name">Conoce Dolores Hidalgo C.I.N</string>
+
+    <string name="route">Una manera de descubrir Dolores Hidalgo, selecciona la ruta que más te llame la atención y disfruta de la cultura de este pueblo mágico</string>
+    <string name="name_route">name route</string>
+    <string name="description">description</string>
+    <string name="location">ubicación</string>
+    <string name="name_parking">name parking</string>
+    <string name="price">precio</string>
+    <string name="title_history">Historia de Dolores Hidalgo C.I.N</string>
+    <string name="history_dh">La ciudad está ligada al origen de la vida de la hacienda La Erre, fundada para la cría de ganado y de la que se compra parte para el trazo original del pueblo.</string>
+    <string name="route_dh">Información básica</string>
+    <string name="photo">Galería de fotos</string>
+    <string name="parking">Estacionamientos y baños</string>
+    <string name="history">Historia de José Alfredo Jiménez</string>
+    <string name="craft">Artesanías y talavera</string>
+    <string name="crafts_title">Artesanias y Talavera</string>
+    <string name="crafts_des">Descubre los mejores lugares para comprar Artesanias y Talavera</string>
+    <string name="video">Video</string>
+    <string name="call">Llamar</string>
+
+    <string name="title_activity_maps_route1">Map</string>
+
+
+    <string name="action_settings">Settings</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="share">Compartir</string>
+    <string name="Location">Guanajuato #13, Centro</string>
+    <string name="schedules">Lunes a Domingo 10:00 am - 5:00pm</string>
+    <string name="title_location">Ver ubicación</string>
+
+    <!---->
+    <string name="dhcin">Conoce Dolores Hidalgo C.I.N</string>
+    <!-->maps<-->
+    <string name="title_activity_maps_route">Map</string>
+    <string name="google_directions_key">AIzaSyAKCizZJqM7c1qpJXWU6033FAhrT3pt2_Y</string>
+    <string name="direcction">Dirección</string>
+
+    <!---->
+    <string name="welcome">Hola BIENVENIDO</string>
+    <string name="comment">Según los emojis califica tú experiencia en la Ciudad de Dolores Hidalgo</string>
+    <string name="comment_one">Escribe un comentario y compartelo en tus redes sociales</string>
+    <string name="question">Pregunta</string>
+    <string name="check">Check</string>
+    <string name="correct">Muy bien!</string>
+    <string name="incorrect">Incorrecto...</string>
+    <string name="next">Siguiente</string>
+    <string name="finish">Terminada</string>
+    <string name="prev">Anterior</string>
+    <string name="message">Escribe un mensaje</string>
+    <string name="type">Enviar</string>
+    <array name="all_questions">
+        <item>¿En donde nació José Alfredo Jiménez?;Léon;Salamanca;*Dolores Hidalgo;Silao</item>
+        <item>¿Cómo se llamaba la primera esposa de José Alfredo Jiménez?;*Paloma Gélvez;Lucha
+            Villa;Alicia Juárez;Irma Donantes
+        </item>
+        <item>¿Cuántos hijos tenía José Alfredo Jimenez? ;3;*6;8;5</item>
+        <item>¿Cuál fue el más grande éxito de Jóse Alfredo Jiménez?;Caminos de Guanajuato;Si nos
+            dejan;La media vuelta;*El Rey
+        </item>
+        <item>¿En que año falleció Jóse Alfredo Jiménez?;1970;*1973;1976;1979</item>
+    </array>
+
+    <!---><-->
+    <string name="description_al">description</string>
+    <string name="location_al">ubicación</string>
+    <string name="name_parking_al">name restaurant</string>
+    <!-->maps<-->
+    <string name="direcction_al">Dirección</string>
+    <string name="phone">Teléfono</string>
+    <string name="txv_name">Restaurante de Dolores hidalgo</string>
+    <string name="txv_hotel">Nombre del Hotel</string>
+    <string name="txv_hotel_al">Nombre</string>
+    <string name="txv_restaurant">Nombre del Restaurant</string>
+    <string name="paloma">Paloma Querida</string>
+    <string name="nubes">Tu y las nubes</string>
+    <string name="caminos">Caminos de guanajuato</string>
+    <string name="Rey">El rey</string>
+    <string name="vuelta">La media vuelta</string>
+    <string name="dejan">Si nos dejan</string>
+    <string name="gracias">Gracias</string>
+    <string name="rienda">Te solté la rienda</string>
+    <string name="cuatro">Cuatro caminos</string>
+    <string name="crafts">Un pequeño vistazo a las artesanias Dolorences</string>
+    <string name="name_title">Nombre del video</string>
+    <string name="canal">Canal</string>
+    <string name="plaza">Dirección: Plaza principal S/N, Dolores Hidalgo</string>
+    <string name="museum">Museo de la Independencia</string>
+    <string name="direction_size">Dirección: Zacatecas 6, centro, Dolores Hidalgo</string>
+    <string name="title_2">Museo casa de los decendientes de Hidalgo</string>
+    <string name="title_two">Dirección: Hidalgo 2, centro, Dolores Hidalgo</string>
+    <string name="map">Ver mapa</string>
+    <string name="p_dolores">Parroquia de los Dolores</string>
+
+</resources>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="mx.utng.edu.conoceDolores">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@drawable/ic_logo"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="mx.utng.edu.conoceDolores.MenuMain">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="mx.utng.edu.conoceDolores.GalleryDetail" />
+        <activity android:name="mx.utng.edu.conoceDolores.MenuRecommendActivity" />
+        <activity android:name="mx.utng.edu.conoceDolores.MainActivityTwo" />
+        <activity android:name="mx.utng.edu.conoceDolores.CreditsDhActivity" />
+        <activity android:name="mx.utng.edu.conoceDolores.Location" />
+        <activity android:name="mx.utng.edu.conoceDolores.History" />
+        <activity android:name="mx.utng.edu.conoceDolores.Main2Activity" />
+        <activity android:name="mx.utng.edu.conoceDolores.music_list" />
+        <activity android:name="mx.utng.edu.conoceDolores.Music" />
+        <activity android:name="mx.utng.edu.conoceDolores.MusicTwo" />
+        <activity android:name="mx.utng.edu.conoceDolores.MusicThree" />
+        <activity android:name="mx.utng.edu.conoceDolores.MusicFour" />
+        <activity android:name="mx.utng.edu.conoceDolores.MusicFive" />
+        <activity android:name="mx.utng.edu.conoceDolores.MusicSix" />
+        <activity android:name="mx.utng.edu.conoceDolores.MusicSeven" />
+        <activity android:name="mx.utng.edu.conoceDolores.MusicEight" />
+        <activity android:name="mx.utng.edu.conoceDolores.MusicNine" />
+        <activity android:name="mx.utng.edu.conoceDolores.MusicTen" />
+        <activity android:name="mx.utng.edu.conoceDolores.GalleryActivityTwo" />
+        <activity android:name="mx.utng.edu.conoceDolores.MainActivity" />
+        <activity android:name="mx.utng.edu.conoceDolores.MapsRoute1Activity" />
+        <activity android:name="mx.utng.edu.conoceDolores.activity_music_list" />
+        <activity android:name="mx.utng.edu.conoceDolores.MenuDolores" />
+        <activity android:name="mx.utng.edu.conoceDolores.MenuShare" />
+        <activity android:name="mx.utng.edu.conoceDolores.MenuRecommandations" />
+        <activity android:name="mx.utng.edu.conoceDolores.MenuCredits" />
+        <!-- paola inicio -->
+        <activity android:name="mx.utng.edu.conoceDolores.HistoryActivity" />
+        <activity android:name="mx.utng.edu.conoceDolores.ParkingDhActivity" />
+        <activity android:name="mx.utng.edu.conoceDolores.RouteDhActivity" />
+        <activity android:name="mx.utng.edu.conoceDolores.PhotoGalleryActivity" />
+        <activity android:name="mx.utng.edu.conoceDolores.CraftsVideoActivity" />
+        <activity
+            android:name="mx.utng.edu.conoceDolores.MapsRouteActivity"
+            android:label="@string/title_activity_maps_route" />
+        <activity android:name="mx.utng.edu.conoceDolores.Direcction1Activity" />
+        <activity android:name="mx.utng.edu.conoceDolores.Direcction2Activity" />
+        <activity android:name="mx.utng.edu.conoceDolores.Direcction3Activity" />
+        <activity android:name="mx.utng.edu.conoceDolores.GameActivity" />
+        <activity android:name="mx.utng.edu.conoceDolores.PlayActivity" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+        <!-- paola fin -->
+        <!-- ana maria -->
+        <activity android:name="mx.utng.edu.conoceDolores.MainMessageActivity" />
+        <activity android:name="mx.utng.edu.conoceDolores.MainTwoActivity" />
+        <activity android:name="mx.utng.edu.conoceDolores.QuizActivity" />
+        <!-- menu -->
+        <activity android:name="mx.utng.edu.conoceDolores.HotelDhActivity" />
+        <activity android:name="mx.utng.edu.conoceDolores.RestaurantDhActivity" />
+        <activity android:name="mx.utng.edu.conoceDolores.MenuJimenezActivity" />
+        <activity android:name="mx.utng.edu.conoceDolores.MenuDoloreshActivity" />
+        <activity android:name="mx.utng.edu.conoceDolores.MenuSharedhActivity" />
+        <activity android:name="mx.utng.edu.conoceDolores.RouteStnActivity"></activity>
+    </application>
+
+</manifest>

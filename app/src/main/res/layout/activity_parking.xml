@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mx.utng.edu.conoceDolores.ParkingDhActivity">
+
+    <ImageView
+        android:id="@+id/imv_photo"
+        android:layout_width="129dp"
+        android:layout_height="170dp"
+        android:layout_margin="@dimen/margin_size"
+        android:onClick="nextActivity33"
+        android:src="@drawable/ic_doloresh12" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="@dimen/margin_size"
+        android:textStyle="bold"
+        >
+
+        <Button
+            android:id="@+id/btn_map"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ver mapa"
+            android:onClick="nextActivity33"
+            android:drawableLeft="@drawable/ic_map_geo2"
+            android:background="@color/colorFlower"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txv_name_parking"
+            android:text="@string/name_parking"
+            android:layout_marginBottom="@dimen/margin_size"
+            android:textSize="11pt"
+            android:textColor="@color/white"
+            android:background="@color/colorGrassDark"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txv_direcction"
+            android:text="@string/direcction"
+            android:layout_marginBottom="@dimen/margin_size"
+            android:textSize="@dimen/text_size"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txv_price"
+            android:text="@string/price"
+            android:layout_marginBottom="@dimen/margin_size"
+            android:textSize="@dimen/text_size"
+            android:textColor="@color/black"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#333639"
+    tools:context=".GalleryActivityTwo">
+
+    <it.moondroid.coverflow.components.ui.containers.FeatureCoverFlow
+        android:id="@+id/cover_flow"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:coverHeight="@dimen/size_cover_height"
+        app:coverWidth="@dimen/size_cover_width"
+        app:maxScaleFactor="1.5"
+        app:reflectionGap="@dimen/size_gap"
+        app:rotationThreshold="0.5"
+        app:scalingThreshold="0.5"
+        app:spacing="0.6"
+        />
+
+    <TextSwitcher
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/m_title"
+        android:paddingBottom="@dimen/size_pad_bot"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true">
+    </TextSwitcher>
+</RelativeLayout>

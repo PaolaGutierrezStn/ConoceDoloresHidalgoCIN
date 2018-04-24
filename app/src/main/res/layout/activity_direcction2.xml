@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:rowCount="5"
+    android:columnCount="1"
+    android:orientation="horizontal"
+    tools:context=".Direcction2Activity"
+    android:background="@color/white"
+    >
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_map"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ver mapa"
+            android:onClick="nextActivity33"
+            android:drawableLeft="@drawable/ic_map_geo"
+            android:background="@color/stn"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Casa Museo José Alfredo Jiménez"
+            android:drawablePadding="8dp"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:textSize="13pt"
+            android:background="@color/orange"
+            android:textColor="@color/white"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dirección: Guanajuato 13, Centro, Dolores Hidalgo"
+            android:drawablePadding="8dp"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:textSize="11pt"
+            android:background="@color/white"
+            android:textColor="@color/orange"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cantina El Incendio"
+            android:drawablePadding="8dp"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:textSize="13pt"
+            android:background="@color/orange"
+            android:textColor="@color/white"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dirección: Jalisco 21, Centro, Dolores Hidalgo"
+            android:drawablePadding="8dp"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:textSize="11pt"
+            android:background="@color/white"
+            android:textColor="@color/orange"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cantina La Hiedra"
+            android:drawablePadding="8dp"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:textSize="13pt"
+            android:background="@color/orange"
+            android:textColor="@color/white"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dirección: Jalisco 6A, Centro, Dolores Hidalgo"
+            android:drawablePadding="8dp"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:textSize="11pt"
+            android:background="@color/white"
+            android:textColor="@color/orange"
+            />
+
+    </GridLayout>
+</ScrollView>
+

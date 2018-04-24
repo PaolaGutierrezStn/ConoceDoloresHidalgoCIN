@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+    tools:context=".Music">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:text="José Alfredo Jimenez"
+        android:textColor="@color/white"
+        android:fontFamily="cursive"
+        android:layout_gravity="center"
+        android:textSize="@dimen/tiltle"
+        />
+
+
+    <fragment
+        android:id="@+id/videoView"
+        android:name="com.google.android.youtube.player.YouTubePlayerFragment"
+        android:layout_width="250dp"
+
+        android:layout_height="484dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="center"
+        android:layout_weight="8" />
+
+</LinearLayout>

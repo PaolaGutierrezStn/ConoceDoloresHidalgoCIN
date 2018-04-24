@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="mx.utng.edu.conoceDolores.MenuJimenezActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="240dp"
+                    android:background="@drawable/ic_menu_jaj1"
+                    android:textAlignment="center"
+                    android:textSize="24sp"
+                    android:gravity="bottom"
+                    android:textColor="@color/colorPrimaryDark2"
+                    />
+
+                <!-- Third Row-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="1">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="120dp"
+                        android:layout_weight="1"
+                        android:layout_margin="2dp"
+                        android:orientation="vertical"
+                        android:background="@color/colorGrass"
+                        android:onClick="nextActivity6"
+                        >
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_marginTop="15dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/ic_menu10"
+                            android:onClick="nextActivity6"
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:padding="8dp"
+                            android:layout_marginTop="30dp"
+                            android:background="@color/colorGrassDark"
+                            android:text="Información"
+                            android:textSize="18sp"
+                            android:textAlignment="center"
+                            android:textColor="@color/colorWhite"
+                            android:onClick="nextActivity6"
+                            />
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+                <!-- End Third Row-->
+
+                <!---->
+                <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                >
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="120dp"
+                        android:layout_weight="1"
+                        android:layout_margin="2dp"
+                        android:orientation="vertical"
+                        android:background="@color/colorBitterSweet"
+                        android:onClick="nextActivity1"
+                        >
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_marginTop="15dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/ic_menu9"
+                            android:onClick="nextActivity1"
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:padding="8dp"
+                            android:layout_marginTop="30dp"
+                            android:background="@color/colorBitterSweetDark"
+                            android:text="Galería"
+                            android:textSize="18sp"
+                            android:textAlignment="center"
+                            android:textColor="@color/colorWhite"
+                            android:onClick="nextActivity1"
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="120dp"
+                        android:layout_weight="1"
+                        android:layout_margin="2dp"
+                        android:orientation="vertical"
+                        android:background="@color/colorMint"
+                        android:onClick="nextActivity5"
+                        >
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_marginTop="15dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/ic_menu13"
+                            android:onClick="nextActivity5"
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:padding="8dp"
+                            android:layout_marginTop="30dp"
+                            android:background="@color/colorMintDark"
+                            android:text="Historia"
+                            android:textSize="18sp"
+                            android:textAlignment="center"
+                            android:textColor="@color/colorWhite"
+                            android:onClick="nextActivity5"
+                            />
+                    </LinearLayout>
+
+            </LinearLayout>
+
+        <!-- Second Row-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="3"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="120dp"
+                        android:layout_weight="1"
+                        android:layout_margin="2dp"
+                        android:orientation="vertical"
+                        android:background="@color/colorBlueJeans"
+                        android:onClick="nextActivity4"
+                        >
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_marginTop="15dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/ic_menu2"
+                            android:onClick="nextActivity4"
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:padding="8dp"
+                            android:layout_marginTop="30dp"
+                            android:background="@color/colorBlueJeansDark"
+                            android:text="Juego"
+                            android:textSize="18sp"
+                            android:textAlignment="center"
+                            android:textColor="@color/colorWhite"
+                            android:onClick="nextActivity4"
+                            />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="120dp"
+                        android:layout_weight="1"
+                        android:layout_margin="2dp"
+                        android:orientation="vertical"
+                        android:background="@color/colorGrapeFruit"
+                        android:onClick="nextActivity3"
+                        >
+
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="15dp"
+                            android:src="@drawable/ic_menu3"
+                            android:onClick="nextActivity3"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:padding="8dp"
+                            android:layout_marginTop="30dp"
+                            android:background="@color/colorGrapeFruitDark"
+                            android:text="Quiz"
+                            android:textSize="18sp"
+                            android:textAlignment="center"
+                            android:textColor="@color/colorWhite"
+                            android:onClick="nextActivity3"
+                            />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="120dp"
+                        android:layout_weight="1"
+                        android:layout_margin="2dp"
+                        android:orientation="vertical"
+                        android:background="@color/colorLavander"
+                        android:onClick="nextActivity7"
+                        >
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_marginTop="15dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/ic_menu19"
+                            android:onClick="nextActivity7"
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:padding="8dp"
+                            android:layout_marginTop="30dp"
+                            android:background="@color/colorLavanderDark"
+                            android:text="Cancionero"
+                            android:textSize="14sp"
+                            android:textAlignment="center"
+                            android:textColor="@color/colorWhite"
+                            android:onClick="nextActivity7"
+                            />
+                    </LinearLayout>
+
+                </LinearLayout>
+                <!-- End Second Row-->
+
+
+            </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
